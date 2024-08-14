@@ -17,8 +17,7 @@ python_job_elements = [h2_element.parent.parent.parent for h2_element in python_
 
 # Notion Setup
 
-NOTION_API_KEY = 'secret_cvAAg8X9BsjrJinfQP8rw8dRJz2D72CqkUIGzrnvkd6'
-DATABASE_ID = 'bae34f17326a42e1b7f56f10df47947c'
+
 
 notion = Client(auth=NOTION_API_KEY)
 
